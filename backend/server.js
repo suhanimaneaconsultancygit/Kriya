@@ -23,7 +23,7 @@ const app = express();
 
 // ─── MIDDLEWARE ───────────────────────────────────────────────────────────────
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:5173"],
+  origin: ["http://localhost:3000", "http://localhost:5173","kriya-pi.vercel.app"],
   credentials: true,
 }));
 app.use(express.json({ limit: "50mb" }));
